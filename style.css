@@ -1,0 +1,37 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    background:url("./fabian-mardi-kVKz9qnJC-k-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position: center center;
+    align-items: center;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+h1
+{
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+.bigtext
+{
+    font-size: 6rem;
+    margin: 0 2rem;
+}
+.time
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+}
+.time span
+{
+    font-size: 1.3rem;
+}
